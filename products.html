@@ -51,10 +51,7 @@
                                                 <ul>
                                                     <li><a href="index.html">home</a></li>
                                                     <li class="active"><a href="about-us.html">about us </a></li>
-                                                   
-                                                    <li><a href="bikes.html">Products</a>
-                                                        
-                                                    </li>
+                                                    <li><a href="bikes.html">Products</a></li>
                                                     <li><a href="contact.html">contact us</a></li>
                                                 </ul>
                                             </nav>
@@ -71,45 +68,19 @@
                                 <div class="mobile-menu">
                                     <nav id="mobile-menu-active">
                                         <ul class="menu-overflow">
-                                            <li><a href="index.html">HOME</a></li>
-                                            <li><a href="#">pages</a>
-                                                <ul>
-                                                    <li><a href="about-us.html">about us</a></li>
-                                                    <li><a href="cart.html">cart page</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="login-register.html">login</a></li>
-                                                    <li><a href="contact.html">contact</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">shop</a>
-                                                <ul>
-                                                    <li><a href="shop.html">shop</a></li>
-                                                    <li><a href="product-details.html">product details</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="cart.html">cart</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">BLOG</a>
-                                                <ul>
-                                                    <li><a href="blog.html">blog page</a></li>
-                                                    <li><a href="blog-details.html">blog details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html"> Contact us</a></li>
+                                            <li><a href="index.html">home</a></li>
+                                                    <li class="active"><a href="about-us.html">about us </a></li>
+                                                    <li><a href="bikes.html">Products</a></li>
+                                                    <li><a href="contact.html">contact us</a></li>
                                         </ul>
                                     </nav>                          
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
-                    
-                    
-                    
+                    </div>      
                 </div>
             </header>
+            
             <div class="breadcrumb-area pt-255 pb-170" style="background-image: url(assets/img/banner/banner-4.jpg)">
                 <div class="container-fluid">
                     <div class="breadcrumb-content text-center">
@@ -125,7 +96,7 @@
             </div>
             <div class="shop-wrapper fluid-padding-2 pt-120 pb-150">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row" id="prod-area">
                         <div class="col-lg-3">
                             <div class="product-sidebar-area pr-60">
                                 <div class="sidebar-widget pb-55">
@@ -152,11 +123,10 @@
              
                                
                               
-                         
                             </div>
                         </div>
                         <div class="col-lg-9">
-                            <div class="shop-topbar-wrapper">
+                            <div class="shop-topbar-wrapper" id="top">
                                 <div class="grid-list-options">
                                     <ul class="view-mode">
                                         <li class="active"><a href="#product-grid" data-view="product-grid"><i class="ti-layout-grid2"></i></a></li>
@@ -165,38 +135,34 @@
                                 </div>
                                 <div class="product-sorting">
                                     <div class="shop-product-sorting nav">
-                                        <a class="active" data-toggle="tab" href="#new-product">Trains </a>
-                                        <a  data-toggle="tab" href="#use-product"> Cars </a>
-                                        <a data-toggle="tab" href="#accessory-product">Bikes</a>
-                                         <a data-toggle="tab" href="#accessory-product">Charges</a>
-                                         <a data-toggle="tab" href="#accessory-product">Tyres</a>
-                                    </div>
-                                    <div class="sorting sorting-bg-1">
-                                        <form>
-                                            <select class="select">
-                                                <option value="">Default softing </option>
-                                                <option value="">Sort by news</option>
-                                                <option value="">Sort by price</option>
-                                            </select>
-                                        </form>
-                                    </div>
+                                        <a class="active" data-toggle="tab" href="#e-cars">Cars</a>
+                                        <a  data-toggle="tab" href="#e-bikes">Bikes </a>
+                                        <a data-toggle="tab" href="#e-others">Other</a>
+                                    </div>  
                                 </div>
-                            </div>
+                            </div>    
+                          
+                                    <div class="paginations text-center mt-20">
+                                               <div class="shop-product-sorting nav text-center">
+                                                   <a class="active" data-toggle="tab" href="#e-cars">1</a>
+                                                   <a data-toggle="tab"  href="#e-car2">2</a>
+                                                   <a data-toggle="tab" href="#e-car3">3</a>
+                                                </div>  
+                                            </div>
+                            
                             <div class="grid-list-product-wrapper tab-content">
-                                <div id="new-product" class="product-grid product-view tab-pane active">
+                                <div id="e-cars" class="product-grid product-view tab-pane active">
                                     <div class="row">
                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-1.jpg" alt="">
+                                                        <img src="assets/img/product/car1.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>270 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -243,14 +209,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-2.jpg" alt="">
+                                                        <img src="assets/img/product/car2.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>300 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -297,14 +261,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-3.jpg" alt="">
+                                                        <img src="assets/img/product/car3.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -351,14 +313,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-4.jpg" alt="">
+                                                        <img src="assets/img/product/car4.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>150 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -405,14 +365,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-5.jpg" alt="">
+                                                        <img src="assets/img/product/car5.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>280 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -459,14 +417,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-6.jpg" alt="">
+                                                        <img src="assets/img/product/car6.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>290 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -513,14 +469,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-2.jpg" alt="">
+                                                        <img src="assets/img/product/car8.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>220 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -567,14 +521,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-1.jpg" alt="">
+                                                        <img src="assets/img/product/car9.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>210 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -621,14 +573,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-4.jpg" alt="">
+                                                        <img src="assets/img/product/car11.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -671,22 +621,179 @@
                                                 </div>
                                             </div>
                                         </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car12.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car14.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car15.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          
+                                    
+                                        
                                     </div>
                                 </div>
-                                <div id="use-product" class="product-grid product-view tab-pane">
+                                <div id="e-others" class="product-grid product-view tab-pane">
                                     <div class="row">
                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-6.jpg" alt="">
+                                                        <img src="assets/img/product/other1.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>270 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -733,14 +840,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-5.jpg" alt="">
+                                                        <img src="assets/img/product/other2.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>300 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -787,14 +892,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-4.jpg" alt="">
+                                                        <img src="assets/img/product/other3.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -841,14 +944,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-3.jpg" alt="">
+                                                        <img src="assets/img/product/other4.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>150 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -895,14 +996,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-2.jpg" alt="">
+                                                        <img src="assets/img/product/other5.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>280 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -949,14 +1048,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-1.jpg" alt="">
+                                                        <img src="assets/img/product/other6.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>290 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1003,14 +1100,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-6.jpg" alt="">
+                                                        <img src="assets/img/product/other7.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>220 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1057,14 +1152,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-5.jpg" alt="">
+                                                        <img src="assets/img/product/other8.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>210 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1111,14 +1204,168 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-4.jpg" alt="">
+                                                        <img src="assets/img/product/other9.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/other10.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/other11.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Demonissi Gori</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Demonissi Gori</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/other12.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1163,20 +1410,18 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="accessory-product" class="product-grid product-view tab-pane">
+                                <div id="e-bikes" class="product-grid product-view tab-pane">
                                     <div class="row">
                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-7.jpg" alt="">
+                                                        <img src="assets/img/product/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>270 CC</li>
+                                                            <li>KIPRE</li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1223,14 +1468,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-8.jpg" alt="">
+                                                        <img src="assets/img/product/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>300 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1277,14 +1520,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-9.jpg" alt="">
+                                                        <img src="assets/img/product/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1331,14 +1572,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-10.jpg" alt="">
+                                                        <img src="assets/img/product/product-4.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>150 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1382,6 +1621,318 @@
                                             </div>
                                         </div>
                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-5.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-6.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Aeri Carbon Helmet</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Aeri Carbon Helmet</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-7.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Reckles Jacket</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Reckles Jacket</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-8.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Softy Original Glove</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Softy Original Glove</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-9A.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-10.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
@@ -1389,10 +1940,8 @@
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>280 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1435,18 +1984,75 @@
                                                 </div>
                                             </div>
                                         </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-12.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            <!-- Secondpage -->
+                                
+                                <div id="e-car2" class="product-grid product-view tab-pane">
+                                    <div class="row">
                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-7.jpg" alt="">
+                                                        <img src="assets/img/product/car46.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>290 CC</li>
+                                                            <li>KIPRE</li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1493,14 +2099,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-8.jpg" alt="">
+                                                        <img src="assets/img/product/car48.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>220 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1547,14 +2151,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-9.jpg" alt="">
+                                                        <img src="assets/img/product/car39.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>210 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1601,14 +2203,12 @@
                                             <div class="product-wrapper mb-35">
                                                 <div class="product-img">
                                                     <a href="product-details.html">
-                                                        <img src="assets/img/product/product-10.jpg" alt="">
+                                                        <img src="assets/img/product/car50.jpg" alt="">
                                                     </a>
                                                     <div class="product-item-dec">
                                                         <ul>
-                                                            <li>2018</li>
-                                                            <li>MANUAL</li>
-                                                            <li>PETROL</li>
-                                                            <li>250 CC</li>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
                                                         </ul>
                                                     </div>
                                                     <div class="product-action">
@@ -1651,22 +2251,449 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car51.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car52.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Aeri Carbon Helmet</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Aeri Carbon Helmet</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car53.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Reckles Jacket</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Reckles Jacket</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car54.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Softy Original Glove</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Softy Original Glove</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car55.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car56.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                            <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/car57.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="product-width col-md-6 col-xl-4 col-lg-6">
+                                         <div class="product-wrapper mb-35">
+                                                <div class="product-img">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/img/product/product-12.jpg" alt="">
+                                                    </a>
+                                                    <div class="product-item-dec">
+                                                        <ul>
+                                                            <li>KIPRÉ </li>
+                                                            <li>BRAND</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product-action">
+                                                        <a class="action-plus-2 p-action-none" title="Add To Cart" href="#">
+                                                            <i class=" ti-shopping-cart"></i>
+                                                        </a>
+                                                        <a class="action-cart-2" title="Wishlist" href="#">
+                                                            <i class=" ti-heart"></i>
+                                                        </a>
+                                                        <a class="action-reload" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <i class=" ti-zoom-in"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-content-wrapper">
+                                                        <div class="product-title-spreed">
+                                                            <h4><a href="product-details.html">Flicky Traco Boot</a></h4>
+                                                            <span>6600 RPM</span>
+                                                        </div>
+                                                        <div class="product-price">
+                                                            <span>$2549</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-list-details">
+                                                    <h2><a href="product-details.html">Flicky Traco Boot</a></h2>
+                                                    <div class="quick-view-rating">
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                        <i class="fa fa-star reting-color"></i>
+                                                    </div>
+                                                    <div class="product-price">
+                                                        <span>$2549</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipic it, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo it. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    <div class="shop-list-cart">
+                                                        <a href="cart.html"><i class="ti-shopping-cart"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                               <div class="paginations text-center mt-20">
+                                               <div class="shop-product-sorting nav text-center">
+                                                   <a class="active" data-toggle="tab" href="#e-cars">1</a>
+                                                   <a data-toggle="tab" href="#e-car2">2</a>
+                                                   <a data-toggle="tab" href="#e-car3">3</a>
+                                                </div>  
+                                            </div>
+                                        
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div class="paginations text-center mt-20">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li class="active"><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                                </ul>
-                            </div>
+                            
+                          
                         </div>
                     </div>
                 </div>
             </div>
+            
+            
+            
+          
+            
+            
+            
+            
             <div class="newsletter-area">
                 <div class="container">
                     <div class="newsletter-wrapper-all theme-bg-2">
